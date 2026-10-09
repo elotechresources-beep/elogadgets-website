@@ -1,0 +1,13 @@
+{
+  "name": "elogadgets-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Public website for EloGadgets.ng in Uyo, Nigeria",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "doctor": "node scripts/doctor.mjs"
+  }
+}
