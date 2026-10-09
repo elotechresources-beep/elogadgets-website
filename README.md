@@ -1,6 +1,6 @@
 # EloGadgets.ng
 
-A fast, responsive static storefront for EloGadgets.ng in Uyo, Nigeria. It introduces the business and its buy, sell and swap positioning, and provides directions to its confirmed shop address. No phone number, email, social profile, product stock, prices, warranty, repair service, backend or database has been supplied or invented.
+A fast, responsive static storefront for EloGadgets.ng in Uyo, Nigeria. It supports gadget purchase, sale, swap and repair enquiries, plus nationwide delivery enquiries. Product imagery is illustrative; no live stock, prices, warranties or repair guarantees are claimed.
 
 ## Requirements and setup
 
@@ -24,23 +24,23 @@ Equivalent Make targets are `make doctor` and `make build`. There is no separate
 
 ## Editing the site
 
-* Business identity, confirmed shop address and directions query: [`business.js`](business.js).
+* Business identity, confirmed phone, email, social destinations, enquiry messages, services, categories, address and directions query: [`business.js`](business.js).
 * Main page content and metadata: [`index.html`](index.html).
 * Theme tokens and responsive layout: [`styles.css`](styles.css).
 * Theme persistence and accessible mobile navigation: [`script.js`](script.js).
-* No EloGadgets logo or contact channel has been supplied. The header uses a text wordmark; imagery is illustrative and does not represent confirmed stock.
+* No approved EloGadgets logo or favicon has been supplied. The header uses a text wordmark; imagery is illustrative and does not represent confirmed stock.
 
-The map link searches the supplied address; it is not a verified map pin. There is no canonical URL because a production domain has not been confirmed.
+The map link searches the supplied address; it is not a verified map pin. There is no canonical URL because EloGadgets.ng has not been purchased or verified.
 
 ## UI library and imagery
 
 The site remains dependency-free static HTML/CSS/JS. Native accessible HTML controls preserve the existing architecture. Hero and product imagery are illustrative photos downloaded under the Unsplash License; they do not depict EloGadgets staff, premises or confirmed stock.
 
-The confirmed address and directions are maintained in `business.js`.
+WhatsApp links open a prefilled message for review and sending in WhatsApp. Email links open the visitor's email application. The static site does not send or store enquiries.
 
 ## Business details to confirm
 
-Store hours, phone, email, social links, warranty/returns, delivery, payment and swap terms, product stock, pricing, founder biography, photo publication permissions, and registered legal entity status are not confirmed and therefore are not claimed. The business name is used as a brand, not a claim of registered-company status.
+Physical store opening hours, delivery terms, warranty/returns, payment and swap terms, product stock, pricing, repair guarantees, photo publication permissions, and registered legal entity status are not confirmed and therefore are not claimed. Online enquiries are available 24/7; this does not describe physical shop hours.
 
 ## Codespace
 
